@@ -5,7 +5,8 @@
     "ref": "escore-lite-host/7/x86_64/standard",
 
     "repos": ["CentOS-Base", "CentOS-updates", "CentOS-extras",
-              "rhel-atomic-rebuild", "CentOS-CR", "escore-base"],
+              "rhel-atomic-rebuild", "CentOS-CR", "escore-base",
+	      "escore-testing"],
 
     "selinux": true,
 
@@ -126,7 +127,7 @@
 		 "docker-novolume-plugin",
                  "ceph-common", "device-mapper-multipath",
                  "sg3_utils", "glusterfs-fuse",
-                 "gomtree"],
+                 "gomtree", "busybox"],
 
     "remove-from-packages": [["yum", "/usr/bin/.*"],
 			     ["filesystem", "/usr/share/backgrounds"],
