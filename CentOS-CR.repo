@@ -22,7 +22,8 @@
 
 [CentOS-CR]
 name=CentOS-7 - cr
-baseurl=http://mirror.centos.org/centos/7/cr/$basearch/
-gpgcheck=0
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+#baseurl=http://mirror.centos.org/centos/7/cr/$basearch/
+baseurl=ftp://10.60.0.129/centos/7.3.1611/cr/x86_64/
+gpgcheck=1
+gpgkey=ftp://10.60.0.129/centos/7.3.1611/os/x86_64/RPM-GPG-KEY-CentOS-7
 enabled=0
