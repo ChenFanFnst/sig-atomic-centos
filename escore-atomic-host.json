@@ -6,7 +6,7 @@
 
     "repos": ["CentOS-Base", "CentOS-updates", "CentOS-extras",
               "rhel-atomic-rebuild", "CentOS-CR", "escore-base",
-	      "escore-testing", "virt7-testing", "atomic7-testing"],
+	      "escore-testing"],
 
     "selinux": true,
 
@@ -72,7 +72,7 @@
     "check-groups": { "type": "file", "filename": "group" },
 
     "packages": ["filesystem", "glibc", "nss-altfiles",
-                 "shadow-utils", "centos-release-atomic",
+                 "shadow-utils",
                  "atomic",
                  "runc",
 		 "systemd", "kernel", "rpm-ostree-client",
@@ -116,7 +116,6 @@
 		 "bind-utils",
 		 "authconfig",
 		 "policycoreutils-python",
-		 "cockpit-system",
 		 "cockpit-bridge",
                  "cockpit-docker",
                  "cockpit-ostree",
@@ -131,7 +130,7 @@
 
     "remove-from-packages": [["yum", "/usr/bin/.*"],
 			     ["filesystem", "/usr/share/backgrounds"],
-                             ["centos-logos", "/usr/share/backgrounds",
+                             ["escore-logos", "/usr/share/backgrounds",
                                               "/usr/share/kde4",
                                               "/usr/share/anaconda"]],
 
