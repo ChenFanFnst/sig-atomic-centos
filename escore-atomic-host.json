@@ -6,7 +6,7 @@
 
     "repos": ["CentOS-Base", "CentOS-updates", "CentOS-extras",
               "rhel-atomic-rebuild", "CentOS-CR", "escore-base",
-	      "escore-testing"],
+	      "escore-testing", "virt7-testing", "atomic7-testing"],
 
     "selinux": true,
 
