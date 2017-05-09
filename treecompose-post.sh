@@ -145,7 +145,7 @@ busybox rm -f /usr/bin/linux64
 busybox rm -f /usr/bin/linuxrc
 # busybox rm -f /usr/bin/ln
 busybox rm -f /usr/bin/logger
-busybox rm -f /usr/bin/login
+# busybox rm -f /usr/bin/login
 busybox rm -f /usr/bin/logname
 busybox rm -f /usr/bin/lpq
 busybox rm -f /usr/bin/lpr
@@ -169,7 +169,7 @@ busybox rm -f /usr/bin/mknod
 busybox rm -f /usr/bin/mkpasswd
 busybox rm -f /usr/bin/mktemp
 busybox rm -f /usr/bin/more
-busybox rm -f /usr/bin/mount
+# busybox rm -f /usr/bin/mount
 busybox rm -f /usr/bin/mountpoint
 busybox rm -f /usr/bin/mpstat
 busybox rm -f /usr/bin/msh
@@ -305,7 +305,7 @@ busybox rm -f /usr/sbin/chroot
 busybox rm -f /usr/sbin/crond
 busybox rm -f /usr/sbin/delgroup
 busybox rm -f /usr/sbin/deluser
-busybox rm -f /usr/sbin/depmod
+# busybox rm -f /usr/sbin/depmod
 busybox rm -f /usr/sbin/devmem
 busybox rm -f /usr/sbin/dhcprelay
 busybox rm -f /usr/sbin/dnsd
@@ -333,7 +333,7 @@ busybox rm -f /usr/sbin/ifplugd
 busybox rm -f /usr/sbin/ifup
 busybox rm -f /usr/sbin/inetd
 busybox rm -f /usr/sbin/init
-busybox rm -f /usr/sbin/insmod
+# busybox rm -f /usr/sbin/insmod
 busybox rm -f /usr/sbin/ip
 busybox rm -f /usr/sbin/ipaddr
 busybox rm -f /usr/sbin/iplink
@@ -347,7 +347,7 @@ busybox rm -f /usr/sbin/loadkmap
 busybox rm -f /usr/sbin/logread
 busybox rm -f /usr/sbin/losetup
 busybox rm -f /usr/sbin/lpd
-busybox rm -f /usr/sbin/lsmod
+# busybox rm -f /usr/sbin/lsmod
 busybox rm -f /usr/sbin/makedevs
 busybox rm -f /usr/sbin/mdev
 busybox rm -f /usr/sbin/mkdosfs
@@ -356,8 +356,8 @@ busybox rm -f /usr/sbin/mkfs.ext2
 busybox rm -f /usr/sbin/mkfs.minix
 busybox rm -f /usr/sbin/mkfs.vfat
 busybox rm -f /usr/sbin/mkswap
-busybox rm -f /usr/sbin/modinfo
-busybox rm -f /usr/sbin/modprobe
+# busybox rm -f /usr/sbin/modinfo
+# busybox rm -f /usr/sbin/modprobe
 busybox rm -f /usr/sbin/nameif
 busybox rm -f /usr/sbin/nanddump
 busybox rm -f /usr/sbin/nandwrite
@@ -374,7 +374,7 @@ busybox rm -f /usr/sbin/readahead
 busybox rm -f /usr/sbin/readprofile
 busybox rm -f /usr/sbin/reboot
 busybox rm -f /usr/sbin/remove-shell
-busybox rm -f /usr/sbin/rmmod
+# busybox rm -f /usr/sbin/rmmod
 busybox rm -f /usr/sbin/route
 busybox rm -f /usr/sbin/rtcwake
 busybox rm -f /usr/sbin/runlevel
@@ -384,7 +384,7 @@ busybox rm -f /usr/sbin/setfont
 busybox rm -f /usr/sbin/setlogcons
 busybox rm -f /usr/sbin/slattach
 busybox rm -f /usr/sbin/start-stop-daemon
-busybox rm -f /usr/sbin/sulogin
+# busybox rm -f /usr/sbin/sulogin
 busybox rm -f /usr/sbin/telnetd
 busybox rm -f /usr/sbin/tftpd
 busybox rm -f /usr/sbin/tunctl
