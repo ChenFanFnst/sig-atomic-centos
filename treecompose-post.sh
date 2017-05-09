@@ -237,7 +237,7 @@ busybox rm -f /usr/bin/split
 busybox rm -f /usr/bin/stat
 busybox rm -f /usr/bin/strings
 busybox rm -f /usr/bin/stty
-busybox rm -f /usr/bin/su
+# busybox rm -f /usr/bin/su
 busybox rm -f /usr/bin/tcpsvd
 busybox rm -f /usr/bin/tee
 busybox rm -f /usr/bin/telnet
