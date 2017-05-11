@@ -223,7 +223,7 @@ busybox rm -f /usr/bin/setkeycodes
 busybox rm -f /usr/bin/setserial
 busybox rm -f /usr/bin/setsid
 busybox rm -f /usr/bin/setuidgid
-busybox rm -f /usr/bin/sh
+# busybox rm -f /usr/bin/sh
 busybox rm -f /usr/bin/sha1sum
 busybox rm -f /usr/bin/sha256sum
 busybox rm -f /usr/bin/sha3sum
