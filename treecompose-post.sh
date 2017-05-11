@@ -401,3 +401,11 @@ busybox rm -f /usr/sbin/watchdog
 busybox rm -f /usr/sbin/zcip
 
 busybox --install -s
+
+# workaround: which, grep command have alias with some opts which busybox doesn't
+# support by default, remove the alias to make busybox command work
+rm -f /etc/profile.d/which2.sh
+rm -f /etc/profile.d/which2.csh
+
+rm -f /etc/profile.d/colorgrep.csh
+rm -f /etc/profile.d/colorgrep.sh
