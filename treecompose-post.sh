@@ -295,7 +295,7 @@ busybox rm -f /usr/sbin/adduser
 busybox rm -f /usr/sbin/adjtimex
 busybox rm -f /usr/sbin/arp
 busybox rm -f /usr/sbin/arping
-busybox rm -f /usr/sbin/blkid
+# busybox rm -f /usr/sbin/blkid
 busybox rm -f /usr/sbin/blockdev
 busybox rm -f /usr/sbin/bootchartd
 busybox rm -f /usr/sbin/brctl
