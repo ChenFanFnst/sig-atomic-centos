@@ -183,7 +183,7 @@ busybox rm -f /usr/bin/nohup
 busybox rm -f /usr/bin/nslookup
 busybox rm -f /usr/bin/od
 busybox rm -f /usr/bin/openvt
-busybox rm -f /usr/bin/passwd
+# busybox rm -f /usr/bin/passwd
 busybox rm -f /usr/bin/patch
 busybox rm -f /usr/bin/pgrep
 busybox rm -f /usr/bin/pidof
