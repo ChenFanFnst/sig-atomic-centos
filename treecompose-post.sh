@@ -48,6 +48,9 @@ set -x
 cp -f /usr/lib/locale/locale-archive /usr/lib/locale/locale-archive.tmpl
 build-locale-archive
 
+# suid
+chmod 4755 /usr/sbin/busybox
+
 # delete the same name *bin* binary file
 
 busybox rm -f /usr/bin/[
