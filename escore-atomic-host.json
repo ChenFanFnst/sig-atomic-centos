@@ -126,7 +126,7 @@
 		 "docker-novolume-plugin",
                  "ceph-common", "device-mapper-multipath",
                  "sg3_utils", "glusterfs-fuse",
-                 "gomtree", "busybox"],
+                 "gomtree", "busybox", "sysstat"],
 
     "remove-from-packages": [["yum", "/usr/bin/.*"],
 			     ["filesystem", "/usr/share/backgrounds"],
