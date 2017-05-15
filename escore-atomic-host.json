@@ -126,13 +126,16 @@
 		 "docker-novolume-plugin",
                  "ceph-common", "device-mapper-multipath",
                  "sg3_utils", "glusterfs-fuse",
-                 "gomtree", "busybox", "sysstat"],
+                 "gomtree", "busybox", "sysstat",
+		 "which", "grep"],
 
     "remove-from-packages": [["yum", "/usr/bin/.*"],
 			     ["filesystem", "/usr/share/backgrounds"],
                              ["escore-logos", "/usr/share/backgrounds",
                                               "/usr/share/kde4",
-                                              "/usr/share/anaconda"]],
+                                              "/usr/share/anaconda"],
+			     ["which", "/etc/profile.d/.*"],
+			     ["grep", "/etc/profile.d/.*"]],
 
     "units": ["docker.service", "tuned.service", "docker-storage-setup.service"],
 
