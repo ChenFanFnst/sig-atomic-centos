@@ -42,7 +42,7 @@ reboot
 
 # For RHEL, it doesn't make sense to have a default remote configuration,
 # because you need to use subscription manager.
-#rm /etc/ostree/remotes.d/*.conf
+rm /etc/ostree/remotes.d/*.conf
 #echo 'unconfigured-state=This system is not registered to Red Hat Subscription Management. You can use subscription-manager to register.' >> $(ostree admin --print-current-dir).origin
 
 # Configure docker-storage-setup to resize the partition table on boot
