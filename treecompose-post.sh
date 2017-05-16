@@ -305,7 +305,7 @@ busybox rm -f /usr/sbin/brctl
 busybox rm -f /usr/sbin/chat
 busybox rm -f /usr/sbin/chpasswd
 busybox rm -f /usr/sbin/chroot
-busybox rm -f /usr/sbin/crond
+# busybox rm -f /usr/sbin/crond
 busybox rm -f /usr/sbin/delgroup
 busybox rm -f /usr/sbin/deluser
 # busybox rm -f /usr/sbin/depmod
