@@ -69,9 +69,9 @@ busybox rm -f /usr/bin/cal
 busybox rm -f /usr/bin/cat
 busybox rm -f /usr/bin/catv
 busybox rm -f /usr/bin/chattr
-busybox rm -f /usr/bin/chgrp
+# busybox rm -f /usr/bin/chgrp
 busybox rm -f /usr/bin/chmod
-busybox rm -f /usr/bin/chown
+# busybox rm -f /usr/bin/chown
 busybox rm -f /usr/bin/chpst
 busybox rm -f /usr/bin/chrt
 busybox rm -f /usr/bin/chvt
