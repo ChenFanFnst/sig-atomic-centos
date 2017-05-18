@@ -135,9 +135,11 @@
                                               "/usr/share/kde4",
                                               "/usr/share/anaconda"],
 			     ["which", "/etc/profile.d/.*"],
-			     ["grep", "/etc/profile.d/.*"]],
+			     ["grep", "/etc/profile.d/.*"],
+			     ["cloud-init", "/etc/cloud/cloud.cfg"]],
 
     "units": ["docker.service", "tuned.service", "docker-storage-setup.service"],
 
-    "default_target": "multi-user.target"
+    "default_target": "multi-user.target",
+    "add-files": [["cloud-init-escore.cfg", "/usr/etc/cloud/cloud.cfg"]] 
 }
