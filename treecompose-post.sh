@@ -170,7 +170,7 @@ busybox rm -f /usr/bin/mkdir
 busybox rm -f /usr/bin/mkfifo
 busybox rm -f /usr/bin/mknod
 busybox rm -f /usr/bin/mkpasswd
-busybox rm -f /usr/bin/mktemp
+# busybox rm -f /usr/bin/mktemp
 busybox rm -f /usr/bin/more
 # busybox rm -f /usr/bin/mount
 busybox rm -f /usr/bin/mountpoint
