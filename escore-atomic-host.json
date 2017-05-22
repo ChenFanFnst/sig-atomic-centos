@@ -127,7 +127,7 @@
                  "ceph-common", "device-mapper-multipath",
                  "sg3_utils", "glusterfs-fuse",
                  "gomtree", "busybox", "sysstat",
-		 "which", "grep"],
+		 "which", "grep", "vim-enhanced"],
 
     "remove-from-packages": [["yum", "/usr/bin/.*"],
 			     ["filesystem", "/usr/share/backgrounds"],
@@ -141,5 +141,5 @@
     "units": ["docker.service", "tuned.service", "docker-storage-setup.service"],
 
     "default_target": "multi-user.target",
-    "add-files": [["cloud-init-escore.cfg", "/usr/etc/cloud/cloud.cfg"]] 
+    "add-files": [["cloud-init-escore.cfg", "/usr/etc/cloud/cloud.cfg"], ["eslite.sh", "/usr/etc/profile.d/eslite.sh"]] 
 }
