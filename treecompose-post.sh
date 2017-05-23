@@ -173,7 +173,7 @@ busybox rm -f /usr/bin/mkpasswd
 # busybox rm -f /usr/bin/mktemp
 busybox rm -f /usr/bin/more
 # busybox rm -f /usr/bin/mount
-busybox rm -f /usr/bin/mountpoint
+# busybox rm -f /usr/bin/mountpoint
 busybox rm -f /usr/bin/mpstat
 busybox rm -f /usr/bin/msh
 busybox rm -f /usr/bin/mt
@@ -257,7 +257,7 @@ busybox rm -f /usr/bin/true
 busybox rm -f /usr/bin/tty
 busybox rm -f /usr/bin/ttysize
 busybox rm -f /usr/bin/udpsvd
-busybox rm -f /usr/bin/umount
+# busybox rm -f /usr/bin/umount
 busybox rm -f /usr/bin/uname
 busybox rm -f /usr/bin/uncompress
 busybox rm -f /usr/bin/unexpand
