@@ -116,6 +116,7 @@
 		 "bind-utils",
 		 "authconfig",
 		 "policycoreutils-python",
+                 "cockpit",
 		 "cockpit-bridge",
                  "cockpit-docker",
                  "cockpit-ostree",
@@ -138,7 +139,7 @@
 			     ["grep", "/etc/profile.d/.*"],
 			     ["cloud-init", "/etc/cloud/cloud.cfg"]],
 
-    "units": ["docker.service", "tuned.service", "docker-storage-setup.service"],
+    "units": ["docker.service", "tuned.service", "docker-storage-setup.service", "cockpit.socket"],
 
     "default_target": "multi-user.target",
     "add-files": [["cloud-init-escore.cfg", "/usr/etc/cloud/cloud.cfg"], ["eslite.sh", "/usr/etc/profile.d/eslite.sh"]] 
