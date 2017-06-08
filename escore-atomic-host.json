@@ -75,7 +75,7 @@
                  "shadow-utils",
                  "atomic",
                  "runc",
-		 "systemd", "kernel", "rpm-ostree-client",
+		 "systemd", "kernel-lite", "rpm-ostree-client",
 		 "dracut-network",
 		 "biosdevname",
 		 "coreutils",
