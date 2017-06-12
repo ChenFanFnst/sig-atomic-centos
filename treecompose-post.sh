@@ -177,7 +177,7 @@ busybox rm -f /usr/bin/more
 busybox rm -f /usr/bin/mpstat
 busybox rm -f /usr/bin/msh
 busybox rm -f /usr/bin/mt
-busybox rm -f /usr/bin/mv
+# busybox rm -f /usr/bin/mv
 busybox rm -f /usr/bin/nc
 busybox rm -f /usr/bin/netstat
 busybox rm -f /usr/bin/nice
