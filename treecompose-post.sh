@@ -211,7 +211,7 @@ busybox rm -f /usr/bin/resize
 busybox rm -f /usr/bin/rev
 busybox rm -f /usr/bin/rm
 busybox rm -f /usr/bin/rmdir
-busybox rm -f /usr/bin/rpm
+# busybox rm -f /usr/bin/rpm
 busybox rm -f /usr/bin/rpm2cpio
 busybox rm -f /usr/bin/run-parts
 busybox rm -f /usr/bin/runsv
