@@ -90,7 +90,7 @@ busybox rm -f /usr/bin/date
 busybox rm -f /usr/bin/dc
 busybox rm -f /usr/bin/dd
 busybox rm -f /usr/bin/deallocvt
-busybox rm -f /usr/bin/df
+# busybox rm -f /usr/bin/df
 busybox rm -f /usr/bin/diff
 busybox rm -f /usr/bin/dirname
 busybox rm -f /usr/bin/dmesg
@@ -124,7 +124,7 @@ busybox rm -f /usr/bin/getopt
 busybox rm -f /usr/bin/grep
 busybox rm -f /usr/bin/groups
 busybox rm -f /usr/bin/gunzip
-busybox rm -f /usr/bin/gzip
+# busybox rm -f /usr/bin/gzip
 busybox rm -f /usr/bin/hd
 busybox rm -f /usr/bin/head
 busybox rm -f /usr/bin/hexdump
